@@ -1,0 +1,6 @@
+# Static site: no dependencies to install and nothing to compile.
+# This overrides the build command set in the Netlify UI, which pointed
+# at a "nadie-ai" folder that doesn't exist in this repository.
+[build]
+  command = "echo 'No build step required'"
+  publish = "."
